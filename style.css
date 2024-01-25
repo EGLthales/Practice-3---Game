@@ -89,7 +89,7 @@ body{
 
 #link{
     width: 85px;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 5px;
 }
 
@@ -101,10 +101,12 @@ body{
     color: rgba(214, 255, 255, 0.44);
     border: 1px solid rgba(214, 255, 255, 0.34);
     border-radius: 7px;
+
+    transition: 0.3s;
 }
 #link a:hover{
     border: 1px solid rgba(50, 255, 255, 0.72);
-    color: rgba(50, 255, 255, 0.69);
+    color: rgba(50, 255, 255, 0.72);
     background: rgba(50, 255, 255, 0.019);
 }
 
@@ -151,5 +153,51 @@ body{
     #container #Contact{ 
         padding-left: 35px;
     }
+
+    #text{
+        width: 704px;
+        margin:2px auto;
+        margin-top: 50px;
+        padding: 4px;
+    }
+    
+    #text h1{
+        margin-left: 7px;
+        color: rgba(86, 255, 255, 0.87);
+        font-size: 31px;
+    }
+
+    #text h2{
+        color: rgba(255, 111, 0, 0.997);
+        font-size: 22px;
+        margin-left: 7px;
+    }
+    
+    #text h3{
+        display: flex;
+        margin:auto;
+        margin-top: 7px;
+        color: rgba(245, 255, 255, 0.87);
+        font-size: 22px;
+    }
+    
+    #link{
+        width: 105px;
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+    
+    #link a{
+        font-size: 23px;
+        text-decoration: none;
+        padding: 3px;
+    
+        color: rgba(214, 255, 255, 0.44);
+        border: 1px solid rgba(214, 255, 255, 0.34);
+        border-radius: 7px;
+    
+        transition: 0.3s;
+    }
+
 
 }
