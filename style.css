@@ -7,82 +7,46 @@
 body *{
     font-family: 'Oswald', sans-serif;
     color: rgba(255, 255, 255, 0.8);
+    
 }
 
 
 body{
-    background: url(./assets/fundo.jpg) no-repeat top center/cover;
+    background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+    height: 100vh;
 }
 
 
+#logo img{
+    width: 160px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
 #container{
-    position: absolute;
-    width: 700px;
-    margin: 0px 350px;
+    display: flex;
+    width: 310;
+    margin: 0px 200px;
     margin-top: 30px;
     border-radius: 10px;
     border: 2.5px solid rgba(255, 255, 255, 0.089);
 }
-
-
-
-#logo img{
-    position: absolute;
-    display: flex;
-    width: 200px;
+#container ul{   
+    list-style: none;
 }
-
-ul{
+#container ul li a{
+    font-size: 19px;
+    text-decoration: none;
+}
+#container ul{
     display: flex;
     flex-direction: row;
-    list-style: none;
-    padding: 10px;
 }
-
-ul li a{
-    text-decoration: none;
-    font-size: 19px;
-}
-
-#About{
+#container #About{ 
     padding-left: 210px;
 }
-#Services{
-    padding-left: 40px;
-}
-#Portifolio{
-    padding-left: 40px;
-}
-#Contact{
-    padding-left: 40px;
+#container #Services{ 
+    padding-left: 30px;
 }
 
 
-#text h1{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 190px;
-    margin-left: 350px;
-}
-
-#text h2{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 230px;
-    margin-left: 349px;
-    color: rgba(255, 51, 0, 0.89);
-}
-#text h3{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 290px;
-    margin-left: 330px;
-    color: rgba(223, 255, 239, 0.89);
-    font-size: 20px;
-}
