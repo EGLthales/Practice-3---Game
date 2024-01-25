@@ -56,3 +56,33 @@ ul li a{
 #Contact{
     padding-left: 40px;
 }
+
+
+#text h1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 190px;
+    margin-left: 350px;
+}
+
+#text h2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 230px;
+    margin-left: 349px;
+    color: rgba(255, 51, 0, 0.89);
+}
+#text h3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 290px;
+    margin-left: 330px;
+    color: rgba(223, 255, 239, 0.89);
+    font-size: 20px;
+}
