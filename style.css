@@ -132,6 +132,11 @@ body{
 
 
 @media (min-width: 700px){
+
+    #logo img{
+        width: 130px;
+    }
+    
     #container{
         width: 800px;
         max-width: 800px;
@@ -182,7 +187,9 @@ body{
     }
     
     #link{
-        width: 105px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: 15px;
         margin-left: 5px;
     }
