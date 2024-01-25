@@ -133,13 +133,20 @@ body{
 
 @media (min-width: 700px){
 
+    body{
+        background: url(./assets/desktop.jpg) no-repeat top center/cover;
+        height: 100vh;
+    }
+
+
     #logo img{
         width: 130px;
     }
     
     #container{
-        width: 800px;
-        max-width: 800px;
+        width: 848px;
+        width: 100%;
+        max-width: 848px;
         padding: 9px;
     }
     #container ul li a{
