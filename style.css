@@ -16,21 +16,43 @@ body{
 
 
 #container{
-    width: 600px;
-    margin: 0px auto;
-    margin-top: 20px;
-    border: solid 2px green;
+    position: absolute;
+    width: 700px;
+    margin: 0px 350px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2.5px solid rgba(255, 255, 255, 0.089);
 }
 
-#logo{
-    position: absolute;
-    margin-top: 0px;
-}
+
 
 #logo img{
-    
+    position: absolute;
     display: flex;
     width: 200px;
-    border: solid 2px green;
 }
 
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 19px;
+}
+
+#About{
+    padding-left: 210px;
+}
+#Services{
+    padding-left: 40px;
+}
+#Portifolio{
+    padding-left: 40px;
+}
+#Contact{
+    padding-left: 40px;
+}
