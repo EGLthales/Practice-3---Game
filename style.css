@@ -155,7 +155,6 @@ body{
         width: 848px;
         width: 100%;
         max-width: 848px;
-        padding: 9px;
     }
     #container ul li a{
         font-size: 19px;
@@ -178,7 +177,6 @@ body{
         width: 704px;
         margin:2px auto;
         margin-top: 50px;
-        padding: 4px;
     }
     
     #text h1{
