@@ -3,3 +3,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body *{
+    font-family: 'Oswald', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+body{
+    background: url(./assets/fundo.jpg) no-repeat top center/cover;
+}
+
+
+#container{
+    width: 600px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: solid 2px green;
+}
+
+#logo{
+    position: absolute;
+    margin-top: 0px;
+}
+
+#logo img{
+    
+    display: flex;
+    width: 200px;
+    border: solid 2px green;
+}
+
