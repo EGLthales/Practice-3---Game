@@ -18,35 +18,138 @@ body{
 
 
 #logo img{
-    width: 160px;
+    width: 90px;
     margin-top: 5px;
     margin-left: 2px;
 }
 
 #container{
     display: flex;
-    width: 310;
-    margin: 0px 200px;
+
+    width: 100%;
+    width: 310px;
+    max-width: 310px;
+
+    margin: 0px auto;
     margin-top: 30px;
+
     border-radius: 10px;
-    border: 2.5px solid rgba(255, 255, 255, 0.089);
+
+    padding: 3px;
 }
 #container ul{   
     list-style: none;
 }
 #container ul li a{
-    font-size: 19px;
+    font-size: 11px;
     text-decoration: none;
 }
 #container ul{
     display: flex;
-    flex-direction: row;
 }
 #container #About{ 
-    padding-left: 210px;
+    padding-left: 57px;
 }
 #container #Services{ 
-    padding-left: 30px;
+    padding-left: 25px;
+}
+#container #Portifolio{ 
+    padding-left: 25px;
+}
+#container #Contact{ 
+    padding-left: 25px;
+}
+
+#text{
+    width: 304px;
+    margin:2px auto;
+    margin-top: 50px;
+    padding: 4px;
+}
+
+#text h1{
+    margin-left: 7px;
+    color: rgba(86, 255, 255, 0.87);
+    font-size: 21px;
+}
+
+#text h2{
+    color: rgba(255, 111, 0, 0.997);
+    font-size: 12px;
+    margin-left: 7px;
+}
+
+#text h3{
+    display: flex;
+    margin:auto;
+    margin-top: 7px;
+    color: rgba(245, 255, 255, 0.87);
+    font-size: 12px;
+}
+
+#link{
+    width: 85px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#link a{
+    font-size: 16px;
+    text-decoration: none;
+    padding: 3px;
+
+    color: rgba(214, 255, 255, 0.44);
+    border: 1px solid rgba(214, 255, 255, 0.34);
+    border-radius: 7px;
+}
+#link a:hover{
+    border: 1px solid rgba(50, 255, 255, 0.72);
+    color: rgba(50, 255, 255, 0.69);
+    background: rgba(50, 255, 255, 0.019);
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 700px){
+    #container{
+        width: 800px;
+        max-width: 800px;
+        padding: 9px;
+    }
+    #container ul li a{
+        font-size: 19px;
+        text-decoration: none;
+    }
+    #container #About{ 
+        padding-left: 350px;
+    }
+    #container #Services{ 
+        padding-left: 35px;
+    }
+    #container #Portifolio{ 
+        padding-left: 35px;
+    }
+    #container #Contact{ 
+        padding-left: 35px;
+    }
+
+}
