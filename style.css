@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*MOBILE VIEW*/
+
 body *{
     font-family: 'Oswald', sans-serif;
     color: rgba(255, 255, 255, 0.8);
@@ -97,7 +99,7 @@ body{
 
 #link{
     width: 85px;
-    margin-top: 15px;
+    margin-top: 21px;
     margin-left: 5px;
 }
 
@@ -118,6 +120,31 @@ body{
     background: rgba(50, 255, 255, 0.019);
 }
 
+#social{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    gap: 10px;
+    
+    margin-top: 10px;
+    margin: 0px auto;
+    margin-left: 180px;
+}
+
+#social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    border: 1px solid rgb(220, 255, 255, 0.50);
+    border-radius: 100%;
+
+    padding: 5px;
+    font-size: 27px;
+}
 
 
 
@@ -139,6 +166,7 @@ body{
 
 
 
+/*DESKTOP VIEW*/
 @media (min-width: 700px){
 
     body{
