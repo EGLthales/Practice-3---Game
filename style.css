@@ -27,17 +27,14 @@ body{
 
 #container{
     display: flex;
-
+    justify-content: center;
+    max-width: 312px;
     width: 100%;
-    width: 310px;
-    max-width: 310px;
 
+    padding-left: 1px;
     margin: 0px auto;
     margin-top: 30px;
 
-    border-radius: 10px;
-
-    padding: 3px;
 }
 #container ul{   
     list-style: none;
@@ -57,7 +54,7 @@ body{
     display: flex;
 }
 #container #About{ 
-    padding-left: 57px;
+    padding-left: 60px;
 }
 #container #Services{ 
     padding-left: 25px;
@@ -71,10 +68,10 @@ body{
 
 
 #text{
-    width: 304px;
+    width: 300px;
     margin:2px auto;
     margin-top: 50px;
-    padding: 4px;
+    padding: 2px;
 }
 
 #text h1{
@@ -91,13 +88,15 @@ body{
 
 #text h3{
     display: flex;
-    margin:auto;
     margin-top: 7px;
     color: rgba(245, 255, 255, 0.87);
     font-size: 12px;
 }
 
 #link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 85px;
     margin-top: 21px;
     margin-left: 5px;
@@ -122,22 +121,20 @@ body{
 
 #social{
     display: flex;
-    
     justify-content: center;
     align-items: center;
-    padding: 1px;
+
+    padding: 2px;
     gap: 10px;
     
-    margin-top: 10px;
-    margin: 0px auto;
-    margin-left: 180px;
+    margin: 10px auto 0px;
+    margin-left: 220px;
 }
 
 #social a{
     display: flex;
     justify-content: center;
     align-items: center;
-
     
     border: 1px solid rgb(220, 255, 255, 0.50);
     border-radius: 100%;
@@ -145,6 +142,7 @@ body{
     padding: 5px;
     font-size: 27px;
 }
+
 
 
 
@@ -246,6 +244,20 @@ body{
     
         transition: 0.3s;
     }
+
+    #social{
+        padding: 2px;
+        gap: 10px;
+        
+        margin: 10px auto 0px;
+        margin-left: 550px;
+    }
+    
+    #social a{
+        padding: 9px;
+        font-size: 30px;
+    }
+
 
 
 }
