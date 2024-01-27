@@ -161,11 +161,55 @@ body{
     transition: 0.4s;
 }
 
+#context2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
 
+    margin:0px auto;
+    margin-top: 20px;
+    padding: 0px 5px;
 
+    border: 1px solid rgba(86, 255, 255, 0.1);
+    border-radius: 5px;
+}
 
+#text2{
+    margin: 16px 2px;
+    word-wrap: break-word;
 
+    border: 1px solid rgba(86, 255, 255, 0.1);
+    border-radius: 5px;
+}
 
+#text2 h2{
+    margin-left: 2px;
+    color: rgba(86, 255, 255, 0.87);
+    font-size: 21px;
+}
+
+#text2 h3{
+    margin-left: 7px;
+    font-size: 0.9em;
+    margin-top: 10px;
+    margin: 10px;
+    margin-left: 7px;
+}
+
+#spc1, #spc2, #spc3, #spc4{
+    margin-top: 0.6em;
+    color: rgba(255, 153, 0, 0.997);
+}
+#spc2{
+    color: rgba(255, 154, 0, 0.997);
+}
+#spc3{
+    color: rgba(255, 165, 0, 0.997);
+}
+#spc4{
+    color: rgba(255, 156, 0, 0.997);
+}
 
 
 
@@ -277,5 +321,54 @@ body{
     #git{
         margin-left: 580px;
     }
+
+
+
+
+
+
+
+    
+#spc1,#spc2,#spc3,#spc4{
+    margin-top: 0.3em;
+}
+
+
+    
+#context2{
+    width: 1050px;
+
+    margin-top: 80px;
+    padding: 0px 5px;
+
+    border: 1px solid rgba(86, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+#text2{
+    margin: 16px 2px;
+    word-wrap: break-word;
+
+    border: 1px solid rgba(86, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+#text2 h2{
+    margin-left: 12px;
+    margin-top: 5px;
+    font-size: 21px;
+}
+
+#text2 h3{
+    margin-left: 7px;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin: 10px;
+    margin-left: 7px;
+}
+
+
+
+
 
 }
