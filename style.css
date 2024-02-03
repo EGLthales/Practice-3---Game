@@ -6,8 +6,6 @@
 
 
 
-
-
 /*MOBILE VIEW*/
 body *{
     font-family: 'Oswald', sans-serif; 
@@ -19,14 +17,15 @@ body{
     height: 100vh;
 }
 
-
-#logo img{
+/*CONTAINER CHARLES LOGO*/
+.logo img{
     width: 90px;
     margin-top: 5px;
     margin-left: 2px;
 }
 
-#container{
+/*CONTAINER HOME |          ABOUT   SERVICES   PORTIFOLIE   CONTACT*/
+.container{
     display: flex;
     justify-content: center;
     max-width: 312px;
@@ -37,37 +36,38 @@ body{
     margin-top: 30px;
 
 }
-#container ul{   
+.container ul{   
     list-style: none;
 }
-#container ul li a{
+.container ul li a{
     font-size: 11px;
     color: rgba(255, 242, 242, 0.9);
     text-decoration: none;
     transition: 0.8s;
 }
-#container ul li a:hover{
+.container ul li a:hover{
     color: rgba(202, 255, 250, 0.49);
     transition: 0.8s;
 
 }
-#container ul{
+.container ul{
     display: flex;
 }
-#container #About{ 
+.container #About{ 
     padding-left: 60px;
 }
-#container #Services{ 
+.container #Services{ 
     padding-left: 25px;
 }
-#container #Portifolio{ 
+.container #Portifolio{ 
     padding-left: 25px;
 }
-#container #Contact{ 
+.container #Contact{ 
     padding-left: 25px;
 }
 
 
+/*CONTAINER TEXTO HOME*/
 #text{
     width: 300px;
     margin:2px auto;
@@ -94,6 +94,8 @@ body{
     font-size: 12px;
 }
 
+
+/*CONTAINER LINK HIRE ME*/
 #link{
     display: flex;
     justify-content: center;
@@ -120,6 +122,7 @@ body{
     background: rgba(50, 255, 255, 0.019);
 }
 
+/*CONTAINER GIT HUB E YOUTUBE LINK*/
 #social{
     display: flex;
     margin: 7px auto;
@@ -161,7 +164,9 @@ body{
     transition: 0.4s;
 }
 
-#context2{
+
+/*CONTAINER TEXTO ABOUT*/
+.context2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,7 +180,7 @@ body{
     border-radius: 5px;
 }
 
-#text2{
+.text2{
     margin: 16px 2px;
     word-wrap: break-word;
 
@@ -183,13 +188,13 @@ body{
     border-radius: 5px;
 }
 
-#text2 h2{
+.text2 h2{
     margin-left: 2px;
     color: rgba(86, 255, 255, 0.87);
     font-size: 21px;
 }
 
-#text2 h3{
+.text2 h3{
     margin-left: 7px;
     font-size: 0.9em;
     margin-top: 10px;
@@ -197,24 +202,41 @@ body{
     margin-left: 7px;
 }
 
-#spc1, #spc2, #spc3, #spc4{
+.spc1{
     margin-top: 0.6em;
-    color: rgba(255, 153, 0, 0.997);
-}
-#spc2{
-    color: rgba(255, 154, 0, 0.997);
-}
-#spc3{
     color: rgba(255, 165, 0, 0.997);
 }
-#spc4{
-    color: rgba(255, 156, 0, 0.997);
+
+
+
+
+
+
+/*TABLET VIEW*/
+@media (min-width: 790px){
+
+
+
+
+
+    
+/*CONTAINER TEXTO ABOUT*/
+.context2{
+    width: 680px;
+    margin-top: 24px;
 }
 
 
+.text2 h2{
+    margin-left: 12px;
+    margin-top: 5px;
+}
 
+.text2 h3{
+    font-size: 1.2em;
+}
 
-
+}
 
 
 
@@ -227,144 +249,52 @@ body{
 
 
 /*DESKTOP VIEW*/
-@media (min-width: 700px){
-
-    body{
-        background: url(./assets/desktop.jpg) no-repeat top center/cover;
-        height: 100vh;
-    }
-
-
-    #logo img{
-        width: 130px;
-    }
-    
-    #container{
-        width: 848px;
-        width: 100%;
-        max-width: 848px;
-    }
-    #container ul li a{
-        font-size: 19px;
-        text-decoration: none;
-    }
-    #container #About{ 
-        padding-left: 350px;
-    }
-    #container #Services{ 
-        padding-left: 35px;
-    }
-    #container #Portifolio{ 
-        padding-left: 35px;
-    }
-    #container #Contact{ 
-        padding-left: 35px;
-    }
-
-    #text{
-        width: 704px;
-        margin:2px auto;
-        margin-top: 50px;
-    }
-    
-    #text h1{
-        margin-left: 7px;
-        color: rgba(86, 255, 255, 0.87);
-        font-size: 31px;
-    }
-
-    #text h2{
-        color: rgba(255, 111, 0, 0.997);
-        font-size: 22px;
-        margin-left: 7px;
-    }
-    
-    #text h3{
-        display: flex;
-        margin:auto;
-        margin-top: 7px;
-        color: rgba(245, 255, 255, 0.87);
-        font-size: 22px;
-    }
-    
-    #link{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 15px;
-        margin-left: 5px;
-    }
-    
-    #link a{
-        font-size: 23px;
-        text-decoration: none;
-        padding: 3px;
-    
-        color: rgba(214, 255, 255, 0.44);
-        border: 1px solid rgba(214, 255, 255, 0.34);
-        border-radius: 7px;
-    
-        transition: 0.3s;
-    }
-
-    #social{
-        display: flex;
-        margin: 7px auto;
-        width: 704px;
-        padding: 3px 0px;
-    }
-    #social a{
-        padding: 7px;
-        font-size: 36px;
-    }
-    
-    #git{
-        margin-left: 580px;
-    }
+@media (min-width: 840px){
 
 
 
+/*CONTAINER CHARLES LOGO*/
+.logo img{
+    width: 130px;
+}
 
-
-
-
-    
-#spc1,#spc2,#spc3,#spc4{
-    margin-top: 0.3em;
+/*CONTAINER HOME |          ABOUT   SERVICES   PORTIFOLIE   CONTACT*/
+.container{
+    max-width: 100px;
+}
+.container ul li a{
+    font-size: 19px;
+}
+.container #About{ 
+    padding-left: 350px;
+}
+.container #Services{ 
+    padding-left: 35px;
+}
+.container #Portifolio{ 
+    padding-left: 35px;
+}
+.container #Contact{ 
+    padding-left: 35px;
 }
 
 
-    
-#context2{
-    width: 1050px;
 
-    margin-top: 80px;
-    padding: 0px 5px;
 
-    border: 1px solid rgba(86, 255, 255, 0.1);
-    border-radius: 5px;
+/*CONTAINER TEXTO ABOUT*/
+.context2{
+    width: 700px;
+    margin-top: 24px;
 }
 
-#text2{
-    margin: 16px 2px;
-    word-wrap: break-word;
 
-    border: 1px solid rgba(86, 255, 255, 0.1);
-    border-radius: 5px;
-}
-
-#text2 h2{
+.text2 h2{
     margin-left: 12px;
     margin-top: 5px;
-    font-size: 21px;
 }
 
-#text2 h3{
-    margin-left: 7px;
+.text2 h3{
     font-size: 1.2em;
-    margin-top: 10px;
-    margin: 10px;
-    margin-left: 7px;
 }
 
 
