@@ -208,6 +208,7 @@ body{
 }
 
 /*======================================================================*/
+
 /*MOBILE 2*/
 @media (min-width: 428px){
 
@@ -308,8 +309,6 @@ body{
     }
 
 
-   
-    
     
     /*CONTAINER LINK HIRE ME*/
     
@@ -333,7 +332,7 @@ body{
     
     /*CONTAINER TEXTO ABOUT*/
     .context2{
-        width: 450px;
+        width: 400px;
     }
     
     
@@ -347,6 +346,15 @@ body{
 
 /*TABLET VIEW*/
 @media (min-width: 640px){
+
+
+    .container ul li a{
+        font-size: 18px;
+    }
+    .container #About{ 
+        padding-left: 110px;
+    }
+
 
 
 .text1{
