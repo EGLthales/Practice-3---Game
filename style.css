@@ -39,7 +39,7 @@ body{
     list-style: none;
 }
 .container ul li a{
-    font-size: 11px;
+    font-size: 12.2px;
     color: rgba(255, 242, 242, 0.9);
     text-decoration: none;
     transition: 0.8s;
@@ -53,7 +53,7 @@ body{
     display: flex;
 }
 .container #About{ 
-    padding-left: 60px;
+    padding-left: 50px;
 }
 .container #Services{ 
     padding-left: 25px;
@@ -213,6 +213,7 @@ body{
 @media (min-width: 428px){
 
 
+/*CONTAINER CHARLES LOGO*/
 
 /*CONTAINER HOME |          ABOUT   SERVICES   PORTIFOLIE   CONTACT*/
     .container ul li a{
@@ -234,7 +235,7 @@ body{
 
 /*CONTAINER TEXTO HOME*/
 .text1{
-    width: 440px;
+    width: 430px;
     margin-top: 70px;
 }
 
@@ -253,7 +254,6 @@ body{
 
 
 /*CONTAINER LINK HIRE ME*/
-
 #link a{
     font-size: 19px;
     padding: 7px;
@@ -271,11 +271,6 @@ body{
     margin-left: 251px;
 }
 
-
-
-
-
-
 /*CONTAINER TEXTO ABOUT*/
 .context2{
     width: 370px;
@@ -285,7 +280,6 @@ body{
 
 .text2 h2{
     margin-left: 12px;
-    margin-top: 5px;
 }
 
 .text2 h3{
@@ -303,32 +297,18 @@ body{
 /*MOBILE 3*/
 @media (min-width: 518px){
 
+
+
     /*CONTAINER CHARLES LOGO*/
     .logo img{
         width: 150px;
     }
 
-
-    
+    /*CONTAINER HOME |          ABOUT   SERVICES   PORTIFOLIE   CONTACT*/
+    /*CONTAINER TEXTO HOME*/    
     /*CONTAINER LINK HIRE ME*/
-    
-    #link a{
-        font-size: 19px;
-        padding: 7px;
-    }
-    
-    
     /*CONTAINER GIT HUB E YOUTUBE LINK*/
-    #social a{
-        padding: 9px;
-        font-size: 33px;
-    
-    }
-    
-    #git{
-        margin-left: 251px;
-    }
-    
+
     
     /*CONTAINER TEXTO ABOUT*/
     .context2{
@@ -347,7 +327,10 @@ body{
 /*TABLET VIEW*/
 @media (min-width: 640px){
 
+    
+/*CONTAINER CHARLES LOGO*/
 
+/*CONTAINER HOME |          ABOUT   SERVICES   PORTIFOLIE   CONTACT*/
     .container ul li a{
         font-size: 18px;
     }
@@ -356,7 +339,7 @@ body{
     }
 
 
-
+/*CONTAINER TEXTO HOME*/
 .text1{
     width: 480px;
 }
@@ -369,14 +352,9 @@ body{
     font-size: 19px;
 }
 
-
-
-
-
-
 /*CONTAINER LINK HIRE ME*/
 
-
+/*CONTAINER GIT HUB E YOUTUBE LINK*/
 #git{
     margin-left: 351px;
 }
@@ -406,19 +384,14 @@ body{
     width: 130px;
 }
 
+/*CONTAINER HOME |          ABOUT   SERVICES   PORTIFOLIE   CONTACT*/
 
 /*CONTAINER TEXTO ABOUT*/
 .container #About{ 
     padding-left: 350px;
 }
 
-
-.context2{
-    width: 700px;
-}
-
-
-
+/*CONTAINER TEXTO HOME*/
 .text1{
     width: 650px;
 }
@@ -434,6 +407,20 @@ body{
 .text1 h3{
     font-size: 24px;
 }
+
+/*CONTAINER LINK HIRE ME*/
+/*CONTAINER GIT HUB E YOUTUBE LINK*/
+
+
+/*CONTAINER TEXTO ABOUT*/
+
+.context2{
+    width: 700px;
+}
+
+
+
+
 
 
 
