@@ -210,6 +210,70 @@ body{
 /*======================================================================*/
 
 /*MOBILE 2*/
+@media (min-width: 375px){
+
+/*CONTAINER CHARLES LOGO*/
+
+/*CONTAINER HOME |          ABOUT   SERVICES   PORTIFOLIE   CONTACT*/
+.container ul li a{
+    font-size: 13.2px;
+}
+.container #About{ 
+    padding-left: 70px;
+}
+
+/*CONTAINER TEXTO HOME*/
+.text1{
+    width: 380px;
+}
+
+.text1 h1{
+    font-size: 25px;
+}
+
+.text1 h2{
+    font-size: 15px;
+}
+
+.text1 h3{
+    font-size: 18.3px;
+}
+
+/*CONTAINER LINK HIRE ME*/
+#link a{
+    font-size: 18px;
+    padding: 5px;
+}
+
+
+/*CONTAINER GIT HUB E YOUTUBE LINK*/
+#social a{
+    padding: 6px;
+}
+
+#git{
+    margin-left: 251px;
+}
+
+/*CONTAINER TEXTO ABOUT*/
+.context2{
+    width: 340px;
+}
+
+.text2 h3{
+    font-size: 1em;
+}
+
+
+
+
+
+
+}
+
+/*======================================================================*/
+
+/*MOBILE 3*/
 @media (min-width: 428px){
 
 
@@ -220,7 +284,7 @@ body{
         font-size: 15px;
     }
     .container #About{ 
-        padding-left: 30px;
+        padding-left: 75px;
     }
     .container #Services{ 
         padding-left: 35px;
@@ -249,7 +313,6 @@ body{
 
 .text1 h3{
     margin-top: 8px;
-    font-size: 18px;
 }
 
 
@@ -267,9 +330,6 @@ body{
 
 }
 
-#git{
-    margin-left: 251px;
-}
 
 /*CONTAINER TEXTO ABOUT*/
 .context2{
@@ -294,7 +354,7 @@ body{
 
 /*======================================================================*/
 
-/*MOBILE 3*/
+/*MOBILE 4*/
 @media (min-width: 518px){
 
 
