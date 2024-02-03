@@ -365,6 +365,13 @@ body{
     }
 
     /*CONTAINER HOME |          ABOUT   SERVICES   PORTIFOLIE   CONTACT*/
+    .container ul li a{
+        font-size: 16px;
+    }
+    
+    .container #About{ 
+        padding-left: 150px;
+    }
     /*CONTAINER TEXTO HOME*/    
     /*CONTAINER LINK HIRE ME*/
     /*CONTAINER GIT HUB E YOUTUBE LINK*/
@@ -372,7 +379,7 @@ body{
     
     /*CONTAINER TEXTO ABOUT*/
     .context2{
-        width: 400px;
+        width: 500px;
     }
     
     
@@ -395,7 +402,7 @@ body{
         font-size: 18px;
     }
     .container #About{ 
-        padding-left: 110px;
+        padding-left: 180px;
     }
 
 
@@ -421,6 +428,9 @@ body{
 
 
 /*CONTAINER TEXTO ABOUT*/
+    .context2{
+        width: 550px;
+    }
 
 
 
