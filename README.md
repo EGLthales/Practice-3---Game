@@ -27,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Practice 3 é um exemplo de uma estrutura de um site gamer estilizado.
 
-- [Acesse o projeto finalizado, online]()
+- [Acesse o projeto finalizado, online](https://eglthales.github.io/Practice-3-Gaming-Website/index.html)
 
 
 
