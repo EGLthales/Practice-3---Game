@@ -207,7 +207,6 @@ body{
     color: rgba(255, 165, 0, 0.997);
 }
 
-
 /*======================================================================*/
 
 /*MOBILE 2*/
@@ -264,6 +263,7 @@ body{
 .text2 h3{
     font-size: 1em;
 }
+
 
 
 }
@@ -455,8 +455,6 @@ body{
 }
 
 /*CONTAINER HOME |          ABOUT   SERVICES   PORTIFOLIE   CONTACT*/
-
-/*CONTAINER TEXTO ABOUT*/
 .container #About{ 
     padding-left: 350px;
 }
